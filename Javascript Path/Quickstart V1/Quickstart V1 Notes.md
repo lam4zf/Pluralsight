@@ -79,10 +79,22 @@ console.log(myName); // "Louis"
 alert(myName); //" Louis"
 ```
 
-## Lesson:6 Using Variables
+## Lesson 6: Using Variables
 ```javascript
 var myFavoriteMovie = prompt("What is your favorite movie?");
 alert("My favorite movie is " + myFavoriteMovie);
 
 var randomNumber = Math.random(); //generate a random decimal between 0 and 1; multiply by 5 for 1 - 5
+```
+
+## Lesson 7: Intro to Control Flow: if/else statements
+```javascript
+var answer = prompt("What is the capital of New York?");
+
+if(answer === "Albany"){ //she didn't explain 3 vs 2 here
+	alert("You are correct");
+}
+else {
+	alert("u wrong. " + answer + " is not right.");
+}
 ```
