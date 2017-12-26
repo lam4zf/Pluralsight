@@ -147,21 +147,41 @@ else{
 ```javascript
 var rand = Math.round( Math.random() * 15);
 
-if(rand === 0){
-	console.log(rand);
-}
-else if(rand % 3 === 0){
-	if(rand % 5 === 0){
-		alert("fizzbuzz");
+if(rand > 0){
+	if(rand % 3 === 0){
+		if(rand % 5 === 0){
+			alert("fizzbuzz");
+		}
+		else{
+			alert("fizz");
+		}
+	}
+	else if(rand % 5 === 0){
+		alert("buzz");
 	}
 	else{
-		alert("fizz");
+		console.log(rand);
 	}
-}
-else if(rand % 5 === 0){
-	alert("buzz");
 }
 else{
 	console.log(rand);
+}
+```
+
+## Putting it All Together: Control Flow and Comparison Operators
+- Create a text adventure game with JavaScript.  You will encounter a zombie, choose a weapon to fight with, and have a 50/50 chance of either defeating the zombie with our weapon or getting bitten and losing the game,
+```javascript
+alert("It is the zombie apocalypse!  You are looting a store and suddnely a zombie bursts through the door!");
+
+var weapon = prompt("What weapon do you choose to fight the zombie with?  The bow and arrow, the axe or the rubber chicken?");
+
+var rand = Math.round( Math.random());
+
+alert("You attack the zombie with your " + weapon);
+if (rand === 1){
+	alert("Your attack was successful.  You killed the zombie.");
+}
+else{
+	alert("You didn't aim for the head and the zombie bit you.  GAME OVER.");
 }
 ```
