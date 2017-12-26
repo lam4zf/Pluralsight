@@ -88,6 +88,7 @@ var randomNumber = Math.random(); //generate a random decimal between 0 and 1; m
 ```
 
 ## Lesson 7: Intro to Control Flow: if/else statements
+- Use conditional logic and `if/else` statements to determine which code is executed.
 ```javascript
 var answer = prompt("What is the capital of New York?");
 
@@ -96,5 +97,46 @@ if(answer === "Albany"){ //she didn't explain 3 vs 2 here
 }
 else {
 	alert("u wrong. " + answer + " is not right.");
+}
+```
+
+## Lesson 8: Using if/else
+- JavaScript can support `else if` statements as well.
+```javascript
+var answer = prompt("What is the capital of New York?");
+
+if (answer === "Albany"){ //she didn't explain 3 vs 2 here
+	alert("You are correct");
+}
+else {
+	alert("u wrong. " + answer + " is not right.");
+}
+
+var favoriteAnimal = prompt("What is your favorite animal?");
+
+if (favoriteAnimal === "Panda"){
+	alert("panda panda panda panda");
+}
+else if (favoriteAnimal === "dog"){
+	alert("I have a dog");
+}
+else {
+	alert(favoriteAnimal + "s are pretty cool");
+}
+```
+
+### FizzBuzz
+- *Generate a random number between 0 and 5.  If result is divisble by 3, alert "fizz",  if the nubmer is divisible by 5, alert "buzz", otherwise print number to console.
+```javascript
+var rand = Math.round( Math.random() * 5);
+
+if(rand % 3 === 0){
+	alert("fizz");
+}
+else if(rand % 5 === 0){
+	alert("buzz");
+}
+else{
+	console.log(rand);
 }
 ```
