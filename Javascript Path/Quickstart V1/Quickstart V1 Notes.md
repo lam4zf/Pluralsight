@@ -32,7 +32,7 @@ console.log(234512/123);
 console.log(8%3);
 ```
 
-#H1 Understanding the Console
+# H1 Understanding the Console
 - gives feedback like messages, errors, and warnings, and allows you to test additional code with JavaScript that is currently running on the page.
 - Add statements to print to the console from a js file or do it straight in the console itself.
 ```javascript
