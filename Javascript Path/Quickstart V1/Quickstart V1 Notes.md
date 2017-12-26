@@ -126,12 +126,37 @@ else {
 ```
 
 ### FizzBuzz
-- *Generate a random number between 0 and 5.  If result is divisble by 3, alert "fizz",  if the nubmer is divisible by 5, alert "buzz", otherwise print number to console.
+- *Generate a random number between 0 and 5.  If result is divisble by 3, alert "fizz",  if the nubmer is divisible by 5, alert "buzz", otherwise print number to console.*
 ```javascript
 var rand = Math.round( Math.random() * 5);
 
 if(rand % 3 === 0){
 	alert("fizz");
+}
+else if(rand % 5 === 0){
+	alert("buzz");
+}
+else{
+	console.log(rand);
+}
+```
+
+## Lesson 9: Control Flow and Comparison Operators
+- We are going to modify the previous FizzBuzz assignment to be more like the real problem.
+- *Generate a raondom whole number between 0 and 15.  If result is divisble by 3, alert "fizz",  if the nubmer is divisible by 5, alert "buzz", otherwise print number to console.  If a number is divisible by 3 AND 5, alert fizzbuzz.  If the random number is 0, it should not return any text.*
+```javascript
+var rand = Math.round( Math.random() * 15);
+
+if(rand === 0){
+	console.log(rand);
+}
+else if(rand % 3 === 0){
+	if(rand % 5 === 0){
+		alert("fizzbuzz");
+	}
+	else{
+		alert("fizz");
+	}
 }
 else if(rand % 5 === 0){
 	alert("buzz");
