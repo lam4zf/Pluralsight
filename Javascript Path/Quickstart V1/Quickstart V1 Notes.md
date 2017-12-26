@@ -40,3 +40,21 @@ console.log("Hello world!");
 console.warn("warning!!!");
 console.error("ERROR!!!");
 ```
+
+# H1 String, Number, and Boolean Values
+- Primitive Data Types
+-- String
+-- Number
+-- Boolean
+-- Null*: a value that doesn't exist
+-- Unhdefined**: javascript doesn't understand how to interpret something
+* these data types are weird.
+- Any *expression* in JavaScript will return a *value*(e.g. 2+2 returns 4), and that value will have a *type*.  For example, the result of 2+2 is 4 and 4's data type is a number.  If you add 2 + "2", the result is concatenated into the string "22".
+- A value's *type* tells us what kind of "thing" it is.
+```javascript
+typeof(10 < 2); //returns boolean
+typeof(300 /2); //returns number
+typeof("Heelo"+"world"); //returns string
+typeof(a + b); //returns undefined
+typeof(3+"6"); //returns string
+```
