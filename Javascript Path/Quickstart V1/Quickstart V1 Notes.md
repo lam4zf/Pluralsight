@@ -11,7 +11,7 @@
 - For the "IoT": robots, wearable tech, and more
 - Full applications (the Youtube app for Playstation built on AngularJS).
 
-## Lesson:1 Hello World: Writing Your First JavaScript
+## Lesson 1: Hello World: Writing Your First JavaScript
 - Spacing doesn't matter
 - `alert()` - just a popup
 - `confrim()` - popup with the option to cancel
@@ -22,7 +22,7 @@ confirm("We will begin writing JavaScript now.");
 prompt("Do you want to learn JavaScript?");
 ```
 
-## Lesson:2 Intro to Operators
+## Lesson 2: Intro to Operators
 - Basically, JavaScript can do math.  nothing new here
 ```javascript
 console.log(2+2);
@@ -32,7 +32,7 @@ console.log(234512/123);
 console.log(8%3);
 ```
 
-## Lesson:3 Understanding the Console
+## Lesson 3: Understanding the Console
 - gives feedback like messages, errors, and warnings, and allows you to test additional code with JavaScript that is currently running on the page.
 - Add statements to print to the console from a js file or do it straight in the console itself.
 ```javascript
@@ -41,7 +41,7 @@ console.warn("warning!!!");
 console.error("ERROR!!!");
 ```
 
-## Lesson:4 String, Number, and Boolean Values
+## Lesson 4: String, Number, and Boolean Values
 - Primitive Data Types
 	- String
 	- Number
@@ -60,12 +60,13 @@ typeof(a + b); //returns undefined
 typeof(3+"6"); //returns string
 ```
 
-## Lesson:5 Variables
+## Lesson 5: Variables
 - *Variables* allow us to store a reference to a value to be referred to alter or "remembered".
 - When we create a new variable, we are *declaring* i.
 - Variables are created using the `var` keyword.
 - Varuable names cannot start with a number, contain spaces or use a reserved word.
-- It also cannot use any punctuation except "_" or "$".
+- It also cannot use any punctuation except "&lowbar;" or "$".
+
 ```javascript
 var a = 2;
 var b = 4;
@@ -79,3 +80,8 @@ alert(myName); //" Louis"
 ```
 
 ## Lesson:6 Using Variables
+```javascript
+var myFavoriteMovie = "Scarface";
+alert("My favorite movie is " + myFavoriteMovie);
+
+```
