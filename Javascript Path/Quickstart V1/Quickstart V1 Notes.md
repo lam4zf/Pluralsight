@@ -1,3 +1,5 @@
+https://app.pluralsight.com/library/courses/quick-start-javascript-1-1870
+
 ## What is JavaScript?
 - JavaScript has nothign to do with Java.  It pulled inspiration from the stucture, but it was named Javascript as a marketing ploy to take advantage of the popularity of Java.
 - Created in 1995 by Netscape to create products and applications that run in the browser.
