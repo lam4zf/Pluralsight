@@ -12,11 +12,33 @@
 - Full applications (the Youtube app for Playstation built on AngularJS).
 
 # H1 Hello World: Writing Your First JavaScript
-Code stored in "/1- Hello World: Writing Your First JavaScript/"
 - Spacing doesn't matter
 - `alert()` - just a popup
 - `confrim()` - popup with the option to cancel
 - `prompt()` - popup that can take input
+```javascript
+console.log(2+2);
+console.log(2-2);
+console.log(1234*1234);
+console.log(234512/123);
+console.log(8%3);
+```
 
 # H1 Intro to Operators
-Code stored in "/2- Intro to Operators/"
+- Basically, JavaScript can do math.  nothing new here
+```javascript
+console.log(2+2);
+console.log(2-2);
+console.log(1234*1234);
+console.log(234512/123);
+console.log(8%3);
+```
+
+#H1 Understanding the Console
+- gives feedback like messages, errors, and warnings, and allows you to test additional code with JavaScript that is currently running on the page.
+- Add statements to print to the console from a js file or do it straight in the console itself.
+```javascript
+console.log("Hello world!");
+console.warn("warning!!!");
+console.error("ERROR!!!");
+```

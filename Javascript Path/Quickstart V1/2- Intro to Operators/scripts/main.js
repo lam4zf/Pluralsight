@@ -1,4 +1,3 @@
-
 console.log(2+2);
 console.log(2-2);
 console.log(1234*1234);
