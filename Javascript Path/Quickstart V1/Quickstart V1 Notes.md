@@ -17,11 +17,9 @@
 - `confrim()` - popup with the option to cancel
 - `prompt()` - popup that can take input
 ```javascript
-console.log(2+2);
-console.log(2-2);
-console.log(1234*1234);
-console.log(234512/123);
-console.log(8%3);
+alert("Hello world!");
+confirm("We will begin writing JavaScript now.");
+prompt("Do you want to learn JavaScript?");
 ```
 
 # H1 Intro to Operators
