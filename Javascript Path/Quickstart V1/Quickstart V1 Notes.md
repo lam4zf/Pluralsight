@@ -81,7 +81,8 @@ alert(myName); //" Louis"
 
 ## Lesson:6 Using Variables
 ```javascript
-var myFavoriteMovie = "Scarface";
+var myFavoriteMovie = prompt("What is your favorite movie?");
 alert("My favorite movie is " + myFavoriteMovie);
 
+var randomNumber = Math.random(); //generate a random decimal between 0 and 1; multiply by 5 for 1 - 5
 ```
