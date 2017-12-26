@@ -17,3 +17,6 @@ Code stored in "/1- Hello World: Writing Your First JavaScript/"
 - `alert()` - just a popup
 - `confrim()` - popup with the option to cancel
 - `prompt()` - popup that can take input
+
+# H1 Intro to Operators
+Code stored in "/2- Intro to Operators/"
