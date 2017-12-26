@@ -43,11 +43,11 @@ console.error("ERROR!!!");
 
 # H1 String, Number, and Boolean Values
 - Primitive Data Types
-..- String
-..- Number
-..- Boolean
-..- Null&ast;: a value that doesn't exist
-..- Undefined&ast;: javascript doesn't understand how to interpret something
+..* String
+..* Number
+..* Boolean
+..* Null&ast;: a value that doesn't exist
+..* Undefined&ast;: javascript doesn't understand how to interpret something
 &ast; these data types are weird.
 - Any *expression* in JavaScript will return a *value*(e.g. 2+2 returns 4), and that value will have a *type*.  For example, the result of 2+2 is 4 and 4's data type is a number.  If you add 2 + "2", the result is concatenated into the string "22".
 - A value's *type* tells us what kind of "thing" it is.
