@@ -68,3 +68,14 @@ while (i < 11){
 	i++;
 }
 ```
+
+## Lesson 5: Functions
+- 
+```javascript
+function sayHello(name){
+	console.log("Oh hi " + name);
+}
+
+sayHello("Mark");
+sayHello("Lisa");
+```
