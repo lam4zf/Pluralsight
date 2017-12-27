@@ -1,6 +1,6 @@
 /*----------- Main Styles -----*/
 body {
-     background: #222;
+     background: #292929;
      color: #eaeaea;
      padding: 0 16px;
      font: 100% "Open Sans", Helvetica, Arial, sans-serif;
@@ -11,8 +11,6 @@ h1 {
 p {
     font-size: 1em;
     line-height: 1.6;
-    max-width: 800px;
-    min-width: 300px;
 }
 em {
     color: #ea6f05;
@@ -43,11 +41,6 @@ em {
     opacity: 1;
 }
 
-.hover-hint pre {
-    min-width: 200px;
-    max-width: 400px;
-    
-}
 /*---- Syntax Colors -----*/
 .orange {
     color: #ffa500;
