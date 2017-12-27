@@ -50,3 +50,21 @@ for (var i = 1; i <= 100; i++){
 	}
 }
 ```
+
+## Lesson 4: While Loops
+- `do..while` loops execute once and continues as long as the specified condition is still true.
+- use when you don't know how many times something should run
+- `do..while` will always run at least once as opposed to `while`
+```javascript
+var i = 0;
+do {
+	console.log(i)
+	i++;
+} while(i < 11);
+
+i = 0;
+while (i < 11){
+	console.log(i);
+	i++;
+}
+```
