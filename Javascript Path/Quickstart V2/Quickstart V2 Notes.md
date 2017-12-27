@@ -70,7 +70,8 @@ while (i < 11){
 ```
 
 ## Lesson 5: Functions
-- 
+- *Functions* allow us to associate a command with an action, making messy code cleaner and reusable.
+- When you call a function, the information you pass to the function is called an *argument*.
 ```javascript
 function sayHello(name){
 	console.log("Oh hi " + name);
@@ -78,4 +79,14 @@ function sayHello(name){
 
 sayHello("Mark");
 sayHello("Lisa");
+```
+
+## Lesson 6: Arrays
+```javascript
+var friends["Mark", "Lisa", "Denny"];
+console.log(friends[0]); //"Mark"
+
+friends[3] = "Bob"; //adds a new name at index 3
+
+friends.push("Mary"); //if you don't know the index, this will add it to the end
 ```
