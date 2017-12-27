@@ -90,3 +90,14 @@ friends[3] = "Bob"; //adds a new name at index 3
 
 friends.push("Mary"); //if you don't know the index, this will add it to the end
 ```
+
+```javascript
+var friends["Mark", "Lisa", "Denny", "Peter", "Steven", "Claudette"];
+function sayHello(name){
+	console.log("Oh hi " + name);
+}
+
+for(i = 0; i < friends.length; i++){
+	sayHello(friends[i]);
+}
+```
