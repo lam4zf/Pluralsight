@@ -101,3 +101,9 @@ for(i = 0; i < friends.length; i++){
 	sayHello(friends[i]);
 }
 ```
+
+## Lesson 7: Making JS Files From Scratch
+- Make a `scripts` folder in your web project.
+- Save a `.js` file inside of it.
+- Add it right before the closing body tag, `</body>`.  This helps the page load faster and will let the content render first if there are any errors in the script.
+	- `<script src="scripts/main.js" type="text/javascript">`
