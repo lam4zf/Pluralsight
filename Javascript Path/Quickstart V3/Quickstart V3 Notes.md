@@ -14,3 +14,24 @@ var myCoffee = {
 
 console.log(myCoffee.ounces);
 ```
+
+## Lesson 2: Methods
+- When an object has a property with a funciton as the value, it is referred to as a _method_ of that object.
+```javascript
+var myCoffee = {
+	flavor: "espresso",
+	temperature: "Hot",
+	ounces: 32,
+	milk: false,
+
+	reheat: function(){
+		if(this.temperature != "Hot"){
+			this.temperature = "Hot";
+			console.log("Coffee has been set to " this.temperature);
+		}
+	}
+};
+myCoffee.temperature = "cold";
+console.log("The coffee is " myCoffee.temperature);
+myCoffee.reheat();
+```
