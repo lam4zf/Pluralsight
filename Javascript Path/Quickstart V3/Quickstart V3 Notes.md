@@ -35,3 +35,19 @@ myCoffee.temperature = "cold";
 console.log("The coffee is " myCoffee.temperature);
 myCoffee.reheat();
 ```
+
+## Lesson 2: Object literals and constructors
+- When we created our myCoffee object, we created it using what is called an _object literal_.  WHen we create objects this way, we are both defining and creating a single object, referred to as an _instance_ of an object.
+- Use a _constructor_ to create multiple instances of an object.  Each instance _inherits_ the properties and methods of its constructor.
+```javascript
+function Coffee(flavor, temp, size, milk){
+	this.flavor = flavor;
+	this.temperature = temp;
+	this.size = size;
+	this.milk = milk;
+}
+
+var coff = new Coffee("Columbian", "Hot", "Venti", false);
+
+console.log(coff.flavor);
+```
