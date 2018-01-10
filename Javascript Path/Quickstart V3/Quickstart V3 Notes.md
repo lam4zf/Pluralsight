@@ -74,3 +74,7 @@ function alert(){
 	console.log("Hello!"); //overrides default "alert()" function
 }
 ```
+
+## Lesson 6: Local and Global Scope
+- All code written up to this point has been _global_ in _scope_, so anything can access it and change it.
+- Variables inside a funciton are _local_ in _scope_.  You need to use the _var_ keyword though here to keep it local.
