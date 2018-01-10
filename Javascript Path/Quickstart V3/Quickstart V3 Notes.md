@@ -36,7 +36,7 @@ console.log("The coffee is " myCoffee.temperature);
 myCoffee.reheat();
 ```
 
-## Lesson 2: Object literals and constructors
+## Lesson 3: Object literals and constructors
 - When we created our myCoffee object, we created it using what is called an _object literal_.  WHen we create objects this way, we are both defining and creating a single object, referred to as an _instance_ of an object.
 - Use a _constructor_ to create multiple instances of an object.  Each instance _inherits_ the properties and methods of its constructor.
 ```javascript
@@ -51,3 +51,10 @@ var coff = new Coffee("Columbian", "Hot", "Venti", false);
 
 console.log(coff.flavor);
 ```
+
+## Lesson 4: OOP
+- Constructor = prototype
+- Host Objects: objects defined by the enviroment in which code is run.  A browser is an exmple of a host enviroment and gives us _Document, Window, Element, Event. Node, Comment, Console, etc_
+- Core Objects: defined by and built into JS itself: _Math, Object, String, Boolean, Array, Date, Number, etc_
+- Everything else is written by us
+
