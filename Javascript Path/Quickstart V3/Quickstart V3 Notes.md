@@ -78,3 +78,6 @@ function alert(){
 ## Lesson 6: Local and Global Scope
 - All code written up to this point has been _global_ in _scope_, so anything can access it and change it.
 - Variables inside a funciton are _local_ in _scope_.  You need to use the _var_ keyword though here to keep it local.
+
+## Lesson 7: Understanding Scope
+- JS uses _function scope_, meaning every time we create a new function, the scope changes.  Any code inside that function is local to that function.
