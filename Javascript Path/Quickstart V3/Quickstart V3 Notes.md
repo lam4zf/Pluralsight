@@ -81,3 +81,7 @@ function alert(){
 
 ## Lesson 7: Understanding Scope
 - JS uses _function scope_, meaning every time we create a new function, the scope changes.  Any code inside that function is local to that function.
+
+## Lesson 8: Coding Convetions and JSLint
+- Use a linting tool like JSLint to keep consistency in formatting and clean up code.
+- It will give you a bunch of errors.
