@@ -58,3 +58,19 @@ console.log(coff.flavor);
 - Core Objects: defined by and built into JS itself: _Math, Object, String, Boolean, Array, Date, Number, etc_
 - Everything else is written by us
 
+## Lesson 5: This and the Global Object
+- JS uses _objects_ as a way of passing around and sharing code.
+- When we create variables, fucntions and objects, they are properties of the _global object_.
+- The _window_ is the _global object_ when the host environment is the web.
+```javascript
+alert(this); //alerts [object window]
+
+function sayHello(){
+	alert("Hello");
+}
+window.sayHello(); //also works
+
+function alert(){
+	console.log("Hello!"); //overrides default "alert()" function
+}
+```
